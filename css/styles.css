@@ -11,24 +11,12 @@ body{
   text-align: center;
 }
 .flashy {
-  float: left;
-  width: 27%;
   background-color: #a3e0d1;
   border: 5px solid #1b4591;
-  padding-bottom: 10%;
-  padding: 1%;
-  margin: 1.66%;
 }
 .unique {
-  float: left;
-  width: 27%;
   background-color: #a3e0d1;
   border: 5px solid #1b4591;
-  padding-bottom: 3%;
-  padding-top: 1%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin: 1.66%;
 }
 .unique p{
   font-weight: bold;
@@ -41,4 +29,44 @@ body{
   height: 300px;
   width: 100%;
   border-radius: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .flashy {
+    width: 27%;
+    float: left;
+    padding: 20px;
+    margin: 1.66%;
+  }
+  .unique{
+      width: 27%;
+      float: left;
+      padding: 20px;
+      margin: 1.66%;
+    }
+}
+
+@media screen and (max-width: 1553px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .flashy {
+    width: 150px;
+    float: left;
+    padding: 5px;
+    margin: 1.66%;
+  }
+  .unique{
+      width: 150px;
+      float: left;
+      padding: 5px;
+      margin: 1.66%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #bf7c72;
+  }
 }
