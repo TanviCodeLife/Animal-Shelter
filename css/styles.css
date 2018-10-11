@@ -1,28 +1,44 @@
 body{
   background-color: black;
+  font-family: Raleway;
 }
 .container{
-  padding-bottom: 10%;
-  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
   background-color: #d7dde8;
+  font-weight: 800;
+  text-transform: uppercase;
   text-align: center;
 }
 .flashy {
   float: left;
-  width: 20%;
-  background-color: #d7dde8;
-  border: 2px solid #1b4591;
+  width: 27%;
+  background-color: #a3e0d1;
+  border: 5px solid #1b4591;
   padding-bottom: 10%;
-  margin: 3%;
+  padding: 1%;
+  margin: 1.66%;
+}
+.unique {
+  float: left;
+  width: 27%;
+  background-color: #a3e0d1;
+  border: 5px solid #1b4591;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 1.66%;
+}
+.unique p{
+  font-weight: bold;
+  text-shadow: 1px 1px 2px pink;
+}
+.unique p a{
+  font-style: italic;
 }
 .resize {
-  width: 90%;
-}
-.sidebar{
-float: right;
-width: 17%;
-background-color: green;
-border: 2px solid yellow;
-margin-left: 3%;
-padding-bottom: 100%;
+  height: 300px;
+  width: 100%;
+  border-radius: 10%;
 }
